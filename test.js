@@ -25,13 +25,13 @@ let finDuRdvHeure = debutRdvHeure + dureeRdvHeure;
 let finDuRdvMinute = debutRdvMinute + dureeRdvMinute;
 
 if (finDuRdvHeure < finJourneeHeure || finDuRdvMinute < 60) {
-    console.log("Rendez-vous OK")
+    console.log("Rendez-vous OK");
 } else {
-    console.log("Rendez-vous impossible")
+    console.log("Rendez-vous impossible");
 }
 
 if ("Rendez-vous OK") {
-    console.log("Le Rendez-vous se terminera à " + finDuRdvHeure + " h " + finDuRdvMinute)
+    console.log("Le Rendez-vous se terminera à " + finDuRdvHeure + " h " + finDuRdvMinute);
 } else {
 
 }
